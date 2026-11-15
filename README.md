@@ -20,7 +20,7 @@ bright objects on a dark background in any TIFF/PNG/JPEG image.
 ## Install (Linux + macOS, venv — no conda)
 
 ```bash
-git clone <this-repo>
+git clone https://github.com/dugsean/bacteria-area.git
 cd bacteria-area
 ./install.sh            # add --dev to also install pytest
 ```

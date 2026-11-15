@@ -69,4 +69,5 @@ pandas 3.1.1 and matplotlib 3.11.2. The analysis script, the per-image
 measurement table and, for every field, an overlay of the exact pixels that
 enter the calculation (the segmented mask drawn over the original image, with
 its border marked) are provided as supplementary material. The code is
-available at <https://github.com/> (repository `bacteria-area`).
+available at <https://github.com/dugsean/bacteria-area> (repository
+`bacteria-area`).
