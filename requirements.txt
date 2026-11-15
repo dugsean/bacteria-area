@@ -1,0 +1,10 @@
+# Runtime dependencies of bacteria-area.
+# The same list lives in pyproject.toml; this file is here for
+#   python -m venv .venv && .venv/bin/pip install -r requirements.txt
+numpy>=1.23
+scipy>=1.9
+scikit-image>=0.19
+pandas>=1.5
+matplotlib>=3.6
+tifffile>=2022.9
+pillow>=9.1

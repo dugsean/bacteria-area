@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bacteria-area"
+version = "0.1.0"
+description = "Measure the area covered by bacteria in fluorescence micrographs"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Cyano microscopy lab" }]
+keywords = ["microscopy", "image-analysis", "fluorescence", "cyanobacteria"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.9",
+    "scikit-image>=0.19",
+    "pandas>=1.5",
+    "matplotlib>=3.6",
+    "tifffile>=2022.9",
+    "pillow>=9.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+bacteria-area = "bacteria_area:main"
+
+[tool.setuptools]
+py-modules = ["bacteria_area"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

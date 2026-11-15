@@ -1,0 +1,19 @@
+# virtual environment
+.venv/
+venv/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# analysis output
+results/
+examples/data/
+
+# OS
+.DS_Store
+Thumbs.db
