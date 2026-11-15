@@ -17,7 +17,7 @@ bright objects on a dark background in any TIFF/PNG/JPEG image.
 
 ---
 
-## Install (Linux + macOS, venv — no conda)
+## Install (Linux + macOS, virtual environment)
 
 ```bash
 git clone https://github.com/dugsean/bacteria-area.git

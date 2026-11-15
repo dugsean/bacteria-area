@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 #
 # Install bacteria-area into a local virtual environment.
-# Works on Linux and macOS (no conda, no root, no system packages touched).
+# Works on Linux and macOS (a local virtual environment; no system packages
+# are touched).
 #
 #   ./install.sh          # runtime dependencies + the package
 #   ./install.sh --dev    # ... plus pytest, for running the test suite
